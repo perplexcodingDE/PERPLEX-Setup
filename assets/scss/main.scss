@@ -1,0 +1,48 @@
+@import "var";
+
+/*
+- Import SCSS-Files
+- Scrollbar
+- General Structure
+-
+*/
+
+
+/* Scrollbar
+----------------------------------------- */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #CCC;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #494949;
+}
+
+
+/* General
+----------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all .3s;
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
